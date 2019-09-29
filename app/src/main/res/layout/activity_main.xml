@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="16sp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:text="Filepath: "
+        android:textSize="25sp">
+
+    </TextView>
+    <EditText
+       android:gravity="start"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="Nhập thông tin"
+        android:inputType="textMultiLine"
+        android:id="@+id/txtMuti">
+
+    </EditText>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <Button
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save data"
+        android:id="@+id/btnsave">
+
+
+    </Button>
+
+    <Button
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="read data"
+        android:id="@+id/btnread">
+    </Button>
+    <Button
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/btnclear">
+
+    </Button>
+
+</LinearLayout>
+
+</LinearLayout>
